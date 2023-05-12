@@ -63,7 +63,7 @@
     <main>
         <div id="reset-section">
             <h2 class="title-style1">Email Confirmation</h2>
-            <p>We sent a confirmation code into your email, copy and past it here</p>
+            <p>We sent a confirmation code to your email, copy and paste it here</p>
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" class="flex-column">
                 <div class="classic-form-input-wrapper">
                     <label for="username" class="classic-label">Confirmation code</label>

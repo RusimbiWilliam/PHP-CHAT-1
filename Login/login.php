@@ -135,7 +135,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V01D47 - Login</title>
+    <title>fatumwanya | Login</title>
     <link rel='shortcut icon' type='image/x-icon' href='../public/assets/images/favicons/favicon.ico' />
     <link rel="stylesheet" href="../public/css/global.css">
     <link rel="stylesheet" href="../public/css/login.css">
@@ -147,7 +147,7 @@
     <main>
         <div class="login-img-reg-container">
             <div id="left-asset-wrapper">
-                <h2 id="login-left-text">“The government doesn't want any system of transmitting information to remain unbroken, unless it's under its own control.” ― Isaac Asimov, Tales of the Black Widowers</h2>
+                <h2 id="login-left-text" style.font-size="20px">Welcome to fatumwanya platform <br> where you have the ability to communicate and collaborate with each other <br> to solve daily life problems</h2>
                 <img src="../public/assets/images/preview.png" id="login-image-preview" alt="">
             </div>
             <div id="registration-section">
@@ -167,7 +167,7 @@
                         }
                     </script>
                 </div>
-                <h2 class="title-style1">Create an account</h2>
+                <h2 class="title-style1">Create your account</h2>
                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post" class="flex-column">
                     <div class="classic-form-input-wrapper">
                         <label for="firstname" class="classic-label">Firstname</label>
