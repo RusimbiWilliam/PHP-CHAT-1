@@ -58,7 +58,7 @@
     <?php include_once "page_parts/basic/header.php"; ?>
     <main>
         <div class="notification-bottom-container">
-            <p class="notification-bottom-sentence">THIS IS TEST</p>
+            <p class="notification-bottom-sentence">FATUMWANYA</p>
         </div>
         <div id="global-container" class="relative">
             <div class="post-viewer-only">

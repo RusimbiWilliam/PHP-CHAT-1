@@ -168,7 +168,7 @@
                     </script>
                 </div>
                 <h2 class="title-style1">Create your account</h2>
-                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post" class="flex-column">
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>index.php" method="post" class="flex-column">
                     <div class="classic-form-input-wrapper">
                         <label for="firstname" class="classic-label">Firstname</label>
                         <input type="text" name="firstname" value="<?php echo htmlspecialchars(Common::getInput($_POST, "firstname")); ?>" id="firstname" placeholder="Firstname" autocomplete="off" class="input-text-style-1">
