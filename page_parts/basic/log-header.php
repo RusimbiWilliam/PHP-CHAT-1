@@ -35,7 +35,7 @@
 
         </div>
         <div style="margin: 0 4px"></div>
-        <form action="<?php echo htmlspecialchars(Config::get("root/path")) . "Login/login.php" ?>" method="post" class="flex-form" id="login-form">
+        <form action="<?php echo htmlspecialchars(Config::get("root/path")) . "index.php" ?>" method="post" class="flex-form" id="login-form">
             <input type="hidden" name="token_log" value="<?php echo Token::generate("login"); ?>">
 
             <!----------------------  LOGIN  ---------------------->
