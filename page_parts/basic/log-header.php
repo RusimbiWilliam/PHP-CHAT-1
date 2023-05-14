@@ -22,7 +22,7 @@
             <!----------------------  REMEMBER ME  ---------------------->
             <div class="row-v-flex">
                 <input type="checkbox" tabindex="3" name="remember" form="login-form" checked>
-                <label class="small-label" for="remember">Kepp me connected</label>
+                <label class="small-label" for="remember">Keep me connected</label>
             </div>
         </div>
         <div style="margin: 0 4px"></div>
